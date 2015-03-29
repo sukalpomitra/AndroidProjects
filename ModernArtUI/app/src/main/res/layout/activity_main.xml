@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:orientation="vertical" android:background="#000000">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:context=".MainActivity"
+        android:orientation="horizontal" android:layout_weight="2" android:background="#000000" >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" tools:context=".MainActivity"
+                android:orientation="vertical"
+                android:layout_weight="3" android:background="#000000">
+
+                    <TextView android:layout_width="fill_parent"
+                        android:background="#004C99"
+                        android:id="@+id/FirstLeftTile"
+                        android:layout_height="fill_parent" android:layout_weight="1"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        />
+
+                    <TextView android:layout_width="fill_parent"
+                        android:id="@+id/SecondLeftTile"
+                        android:background="#990099"
+                        android:layout_height="fill_parent" android:layout_weight="1"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" tools:context=".MainActivity"
+                android:orientation="vertical" android:layout_marginLeft="2dp"
+                android:layout_marginBottom="2dp" android:background="#000000"
+                android:layout_weight="2">
+
+                <TextView android:layout_width="fill_parent"
+                    android:id="@+id/FirstRightTile"
+                    android:background="#990000" android:layout_marginLeft="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="fill_parent" android:layout_weight="1" />
+
+                <TextView android:layout_width="fill_parent"
+                    android:background="#D3D3D3" android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp" android:layout_marginBottom="2dp"
+                    android:layout_height="fill_parent" android:layout_weight="1" />
+
+                <TextView android:layout_width="fill_parent"
+                    android:id="@+id/ThirdRightTile"
+                    android:background="#000099" android:layout_marginTop="2dp"
+                    android:layout_height="fill_parent" android:layout_weight="1" />
+
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:id="@+id/SeekbarProgress"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:max="255"
+        />
+
+</LinearLayout>

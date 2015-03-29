@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Widget.Holo.Light.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:background">#0000FF</item>
+    </style>
+
+</resources>

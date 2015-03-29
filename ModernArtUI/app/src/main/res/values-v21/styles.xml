@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">#0000FF</item>
+        <item name="android:itemBackground">#000000</item>
+        <item name="android:actionBarPopupTheme">@style/PopUpTheme</item>
+        <item name="android:colorButtonNormal">#0000FF</item>
+    </style>
+
+    <style name="PopUpTheme" parent="android:Widget.Holo.Light.ActionBar">
+
+        </style>
+
+</resources>
